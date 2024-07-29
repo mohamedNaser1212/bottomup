@@ -6,7 +6,7 @@ public class AdditionTest {
     @Test
     public void testAdd() {
         Addition addition = new Addition();
-        int result = addition.add(5, 3);
-        assertEquals(8, result);
+        int reslt = addition.add(5, 3);
+        assertEquals(8, reslt);
     }
 }
